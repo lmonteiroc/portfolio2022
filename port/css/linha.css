@@ -1,0 +1,9 @@
+.linha {
+    max-width: 10%;
+    height: 10px;
+    background-color: var(--fonte-link);
+    margin-right: 85%;
+    border: none;
+    top: 10rem;
+    display: flex;
+}

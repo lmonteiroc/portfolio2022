@@ -1,0 +1,45 @@
+.redes-img {
+    display: flex;
+    width: 60px;
+    border-radius: 100%;
+    border: 2px solid #111111;
+    box-shadow: 10px 5px 5px black;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.box-descktop-titulo {
+    justify-content: center;
+    margin-left: 38%;
+}
+
+@media screen and (min-width: 1024px) {
+    .box-descktop {
+        margin-top: 6rem;
+        position: absolute;
+        display: flex;
+        width: 350px;
+        height: 95rem;
+        background-image: linear-gradient(to right, rgb(52, 13, 109), rgb(17, 4, 83));
+        margin-left: 70%;
+        z-index: 1;
+        top: -8rem;
+        box-shadow: 10px 5px 5px black;
+    }
+    .redes-img {
+        display: flex;
+        width: 60px;
+        border-radius: 100%;
+        border: 2px solid #111111;
+        margin-top: 15rem;
+        margin-left: 5px;
+        box-shadow: 10px 5px 5px black;
+    }
+    .box-descktop-titulo {
+        color: var(--azul-claro);
+        margin-left: 62rem;
+        position: relative;
+        z-index: 2;
+        font-size: 40px;
+    }
+}
