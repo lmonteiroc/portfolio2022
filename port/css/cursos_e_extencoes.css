@@ -15,11 +15,11 @@
 }
 
 .formacao-academica {
-    margin-left: 20%;
+    text-align: center;
 }
 
 .titulo-formacao {
-    margin-left: 3rem;
+    text-align: center;
 }
 
 @media screen and (min-width: 1024px) {
