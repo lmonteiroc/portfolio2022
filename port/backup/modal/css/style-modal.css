@@ -1,0 +1,93 @@
+:root {
+    --branco: rgb(216, 216, 216);
+    --azul-claro: #DFE3E5;
+    --vermelho-forte: #B72E2E;
+    --cinza-escuro: #4F4C4C;
+    --cinza-claro: #F7F4F4;
+    --cinza-medio: #D9D9D9;
+    --fonte-link: #0084FF;
+    --fonte-cinza: #666;
+    --silver: #cad5da;
+    --borda-cabecalho-mobile: #103D4A;
+    --bg-rodape: #333;
+    --bg-chamada-mobile: #00161C;
+    --planos-cartao-start: #56CCF2;
+    --planos-cartao-ultra: #B04CD9;
+    --planos-cartao-mega: #E33B3B;
+    --Montserrat: 'Montserrat', sans-serif;
+    --nome-da-variavel: valor;
+}
+
+
+/*geral*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+    border: solid #111111;
+    box-shadow: 10px 5px 5px black;
+}
+
+p {
+    text-align: center;
+    color: var(--cinza-claro);
+}
+
+
+/*container para formato e fundo*/
+
+.modal-content {
+    max-height: 600px;
+    background-image: linear-gradient(to bottom right, var(--branco), var( --planos-cartao-start), var( --borda-cabecalho-mobile));
+    border-radius: 5%;
+    border: #103D4A solid 1px;
+}
+
+
+/*container para colocar os itens na msm linha*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-direction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/*botão*/
+
+.botao {
+    margin-left: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    color: var(--branco);
+    background-color: var(--fonte-link);
+}
+
+.botao:hover {
+    background-color: var( --planos-cartao-mega);
+    padding: 1.5rem 2.5rem;
+    transition-duration: 2s
+}
+
+
+/*link*/
+
+.link:hover {
+    color: var(--vermelho-forte);
+    transition-duration: 2s
+}

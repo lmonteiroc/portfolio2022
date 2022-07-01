@@ -1,0 +1,38 @@
+.rodape-1 {
+    align-items: center;
+    max-width: 100vw;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    background-color: var( --borda-cabecalho-mobile);
+    color: var(--branco);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding-top: .65rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #103D4A;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape-1 {
+        position: relative;
+        z-index: 2;
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        background-image: linear-gradient(to bottom right, rgb(34, 3, 93), rgb(26, 3, 25));
+        color: var(--branco);
+        box-sizing: border-box;
+        display: flex;
+        margin-top: -35rem;
+        border-bottom: 1px solid #103D4A;
+        margin-left: 19rem;
+    }
+    .rodape-fundo {
+        background-image: linear-gradient(to bottom right, rgb(34, 3, 93), rgb(26, 3, 25));
+        max-width: 69%;
+        max-height: 90%;
+    }
+}

@@ -1,0 +1,34 @@
+.redes-img {
+    display: flex;
+    justify-content: space-between;
+    max-width: 10px;
+    border-radius: 100%;
+    border: 2px solid #111111;
+}
+
+.redes-cabecalho {
+    top: -14rem;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    margin-left: 100rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .redes-cabecalho {
+        top: -14rem;
+        position: absolute;
+        display: flex;
+        z-index: 1;
+        margin-left: 100rem;
+    }
+    .redes-img {
+        display: flex;
+        max-width: 20px;
+        border-radius: 100%;
+        border: 2px solid #111111;
+        margin-top: 15rem;
+        margin-left: 1rem;
+        box-shadow: 10px 5px 5px black;
+    }
+}

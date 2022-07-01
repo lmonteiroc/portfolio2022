@@ -1,0 +1,108 @@
+    .cabecalho {
+        top: 0%;
+        display: grid;
+        width: 100vw;
+        background-image: linear-gradient(to right, rgb(206, 205, 205), rgb(255, 255, 255));
+    }
+    
+    .link-1 {
+        display: flex;
+        color: var(--fonte-link);
+        font-size: 10px;
+    }
+    
+    .link-1:hover,
+    .link-1:focus {
+        color: var(--vermelho-forte);
+    }
+    
+    .nome {
+        color: var(--borda-cabecalho-mobile);
+        font-size: 10px;
+    }
+    
+    .nome:hover,
+    .nome:focus {
+        color: var(--vermelho-forte);
+    }
+    
+    .redes {
+        width: 15px;
+        border-radius: 100%;
+    }
+    
+    .foto {
+        filter: brightness(250%);
+        margin-left: 8.5rem;
+        margin-top: 2rem;
+        border-radius: 50px;
+        width: 95px;
+        border: solid var(--branco);
+    }
+    
+    .titulo-profissao {
+        text-align: center;
+        color: var( --planos-cartao-start);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 30px;
+        word-break: keep-all;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    
+    @media screen and (min-width: 1024px) {
+        .cabecalho {
+            top: 0%;
+            display: grid;
+            width: 100vw;
+            background-image: linear-gradient(to right, rgb(206, 205, 205), rgb(255, 255, 255));
+        }
+        .link-1 {
+            font-size: 15px;
+            justify-content: space-between;
+            text-align: center;
+            color: var(--fonte-link);
+        }
+        .redes {
+            width: 30px;
+            border-radius: 100%;
+            transition: all .2s ease-in-out;
+        }
+        .redes:hover,
+        .redes:focus {
+            top: -10px;
+            box-shadow: 0 6px 10px rgb(98, 10, 10);
+            transform: translateX(10px) scale(1.2);
+            transition: transform 5s;
+        }
+        .nome {
+            margin-left: 10rem;
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+            color: var(--borda-cabecalho-mobile);
+        }
+        .foto {
+            position: relative;
+            z-index: 1;
+            filter: brightness(250%);
+            margin-left: 65rem;
+            margin-top: -6rem;
+            margin-bottom: 1rem;
+            border-radius: 20px;
+            width: 150px;
+            border: solid var(--branco);
+        }
+        .titulo-profissao {
+            z-index: 2;
+            position: absolute;
+            color: var( --planos-cartao-start);
+            display: grid;
+            top: 6rem;
+            margin-bottom: 10rem;
+            margin-left: 18rem;
+            font-size: 80px;
+            display: inline;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+    }

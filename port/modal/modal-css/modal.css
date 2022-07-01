@@ -1,0 +1,153 @@
+ /* The Modal (background) */
+ 
+ .modal {
+     display: none;
+     /* Hidden by default */
+     position: fixed;
+     /* Stay in place */
+     z-index: 1;
+     /* Sit on top */
+     left: 0;
+     top: 0;
+     width: 100%;
+     /* Full width */
+     height: 100%;
+     /* Full height */
+     overflow: auto;
+     /* Enable scroll if needed */
+     background-color: var(--preto);
+     /* Fallback color */
+     background-color: var(--preto);
+     /* Black w/ opacity */
+ }
+ /* Modal Content/Box */
+ 
+ .modal-content {
+     margin-top: 20%;
+     background-color: var(--cinza-medio);
+     margin: 15% auto;
+     /* 15% from the top and centered */
+     padding: 20px;
+     border: 1px solid var(--preto);
+     border-radius: 10px;
+     width: 40%;
+     z-index: 1;
+     position: relative;
+     /* Could be more or less, depending on screen size */
+ }
+ 
+ .modal-title {
+     margin-top: 1rem;
+     text-align: center;
+     color: var( --planos-cartao-start);
+     font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+     font-size: 20px;
+ }
+ 
+ .modal-redes {
+     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+     margin-top: .5rem;
+     margin-bottom: .5rem;
+ }
+ /* The Close Button */
+ 
+ .close {
+     color: var(--planos-cartao-mega);
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+     margin-top: 0%;
+ }
+ 
+ .close:hover,
+ .close:focus {
+     color: var(--planos-cartao-start);
+     text-decoration: none;
+     cursor: pointer;
+ }
+ 
+ .modal-redes {
+     font-size: small;
+ }
+ 
+ .btn {
+     max-width: 60px;
+     background-color: var(--planos-cartao-start);
+     color: var(--cinza-claro);
+     border: none;
+     margin-bottom: .5rem;
+     margin-left: 4%;
+     border-radius: 2%;
+ }
+ 
+ .btn:hover,
+ .btn:focus {
+     background-color: var(--planos-cartao-mega);
+     text-decoration: none;
+     cursor: pointer;
+     transition-delay: scale(1.1) 4s;
+     transform: translateX(10px) scale(1.2);
+     transition: transform 3s;
+ }
+ 
+ .modal-by {
+     font-style: italic;
+     font-size: 10px;
+     color: var(--cinza-escuro);
+ }
+ 
+ @media screen and (min-width: 1024px) {
+     .modal-content {
+         background-color: var(--branco);
+         margin: 15% auto;
+         /* 15% from the top and centered */
+         padding: 20px;
+         border: 1px solid var(--cinza-escuro);
+         border-radius: 10px;
+         width: 35%;
+         /* Could be more or less, depending on screen size */
+     }
+     .modal-title {
+         margin-bottom: 1.5rem;
+         text-align: center;
+         color: var( --planos-cartao-start);
+         font-family: 'Open Sans', sans-serif;
+         font-weight: bold;
+         font-size: 30px;
+     }
+     .close {
+         font-weight: bold;
+         font-size: 25px;
+     }
+     .modal-redes {
+         font-size: large;
+     }
+     .close:hover,
+     .close:focus {
+         color: var(--planos-cartao-start);
+         text-decoration: none;
+         cursor: pointer;
+     }
+     .btn {
+         max-width: 100px;
+         background-color: var(--planos-cartao-start);
+         color: var(--cinza-claro);
+         border: none;
+         margin-bottom: .5rem;
+         margin-left: 18%;
+         border-radius: 5% 5px;
+     }
+     .modal-by {
+         font-style: italic;
+         font-size: small;
+     }
+     .btn:hover,
+     .btn:focus {
+         background-color: var(--planos-cartao-mega);
+         text-decoration: none;
+         cursor: pointer;
+         transition-delay: scale(1.1) 2s;
+     }
+ }

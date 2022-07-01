@@ -1,0 +1,74 @@
+.cor-de-fundo-habilidades {
+    background-color: var(--cor-de-fundo-habilidades);
+    width: 100vw;
+    border: solid 1px var(--cor-de-fundo-habilidades);
+    margin-top: .2rem;
+    display: grid;
+}
+
+.habilidades-img {
+    display: grid;
+    width: 60px;
+    height: 60px;
+    border-radius: 5%;
+    border: solid 2px var( --bg-chamada-mobile);
+    box-shadow: 2px 2px 2px 1px var(--bg-rodape);
+    grid-template-columns: 1px 1px 1px 1px 5px 5px 5px;
+    margin-bottom: 1px;
+    margin-top: .5rem;
+    margin-left: 40%;
+}
+
+.habilidade-flex {
+    display: grid;
+}
+
+.titulo-habilidades {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: .5rem;
+    color: var(--branco);
+}
+
+.titulo-habilidade-menor {
+    text-align: center;
+    margin-top: .5rem;
+    color: var(--branco);
+}
+
+@media screen and (min-width: 1024px) {
+    .habilidade-flex {
+        display: grid;
+        grid-template-columns: 0px 1px 1px 1px 1px 1px 0px;
+    }
+    .cor-de-fundo-habilidades {
+        border: solid 1px var(--cor-de-fundo-habilidades);
+        justify-content: space-around;
+        display: grid;
+        background-color: var(--cor-de-fundo-habilidades);
+        width: 100vw;
+        height: 25rem;
+        margin-top: 5rem;
+    }
+    .titulo-habilidades {
+        font-size: 45px;
+        color: var(--branco);
+        text-align: center;
+    }
+    .titulo-habilidade-menor {
+        text-align: center;
+        margin-top: 3rem;
+        color: var(--branco);
+        margin-top: 5rem;
+    }
+    .habilidades-img {
+        margin-top: 10rem;
+        display: grid;
+        width: 130px;
+        height: 140px;
+        border-radius: 5%;
+        border: solid 2px var( --bg-chamada-mobile);
+        box-shadow: 2px 2px 2px 1px var(--bg-rodape);
+    }
+}

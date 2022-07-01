@@ -1,0 +1,140 @@
+     .formacao {
+         display: grid;
+         background-color: var(--blanco);
+         color: var( --bg-chamada-mobile);
+         margin-top: 1rem;
+         margin-bottom: 1rem;
+         text-align: center;
+         font-size: 30px;
+         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+     }
+     
+     .formacao-ul {
+         display: inline-grid;
+     }
+     
+     .formacao-img {
+         position: relative;
+         z-index: 1;
+         width: 50px;
+         border-radius: 50%;
+         display: grid;
+         margin-bottom: .5rem;
+         border: solid 2px rgb(48, 48, 48);
+     }
+     
+     .formacao-texto-1 {
+         position: absolute;
+         z-index: 2;
+         display: grid;
+         margin-left: 3.5rem;
+         top: 18rem;
+     }
+     
+     .formacao-texto-1_1 {
+         position: absolute;
+         z-index: 2;
+         display: grid;
+         margin-left: 3.5rem;
+         top: 19rem;
+     }
+     
+     .formacao-texto-2 {
+         position: absolute;
+         z-index: 2;
+         display: grid;
+         margin-left: 3.5rem;
+         top: 22rem;
+     }
+     
+     .formacao-texto-2_2 {
+         position: absolute;
+         z-index: 2;
+         display: grid;
+         margin-left: 3.5rem;
+         top: 23rem;
+     }
+     
+     .formacao-texto-3 {
+         position: absolute;
+         z-index: 2;
+         display: grid;
+         margin-left: 3.5rem;
+         top: 25.8rem;
+     }
+     
+     .formacao-texto-3_3 {
+         position: absolute;
+         z-index: 2;
+         display: grid;
+         margin-left: 3.5rem;
+         top: 26.8rem;
+     }
+     
+     @media screen and (min-width: 1024px) {
+         .formacao {
+             display: grid;
+             background-color: var(--blanco);
+             color: var( --bg-chamada-mobile);
+             margin-top: 3rem;
+             margin-bottom: 2rem;
+             text-align: center;
+             font-size: 50px;
+             text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+         }
+         .formacao-img {
+             position: relative;
+             z-index: 1;
+             width: 90px;
+             margin-left: 19.5rem;
+             border-radius: 50%;
+             display: grid;
+             border: solid 2px rgb(48, 48, 48);
+             margin-bottom: .5rem;
+         }
+         .formacao-texto-1 {
+             position: absolute;
+             z-index: 2;
+             display: grid;
+             margin-left: 27rem;
+             top: 26.5rem;
+         }
+         .formacao-texto-1_1 {
+             position: absolute;
+             z-index: 2;
+             display: grid;
+             margin-left: 27rem;
+             top: 27.5rem;
+             color: var(--cinza-medio);
+         }
+         .formacao-texto-2 {
+             position: absolute;
+             z-index: 2;
+             display: grid;
+             margin-left: 27rem;
+             top: 32.5rem;
+         }
+         .formacao-texto-2_2 {
+             position: absolute;
+             z-index: 2;
+             display: grid;
+             margin-left: 27rem;
+             top: 33.5rem;
+             color: var(--cinza-medio);
+         }
+         .formacao-texto-3 {
+             position: absolute;
+             z-index: 2;
+             display: grid;
+             margin-left: 27rem;
+             top: 39rem;
+         }
+         .formacao-texto-3_3 {
+             position: absolute;
+             z-index: 2;
+             display: grid;
+             margin-left: 27rem;
+             top: 40rem;
+             color: var(--cinza-medio);
+         }
+     }

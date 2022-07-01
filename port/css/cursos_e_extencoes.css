@@ -1,0 +1,41 @@
+.cursos-e-extencoes {
+    margin-top: 0.5rem;
+    display: block;
+    background-color: var(--cinza-medio);
+    color: var(--bg-chamada-mobile);
+    padding-bottom: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.texto-cursos {
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.formacao-academica {
+    text-align: center;
+}
+
+.titulo-formacao {
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .titulo-formacao {
+        margin-left: 10rem;
+    }
+    .formacao-academica {
+        margin-left: 20rem;
+        color: var(--cinza-medio);
+        justify-content: center;
+    }
+    .texto-cursos {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .cursos-e-extencoes {
+        padding-top: -2rem;
+    }
+}

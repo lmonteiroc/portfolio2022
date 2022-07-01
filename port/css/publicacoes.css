@@ -1,0 +1,93 @@
+.publicacoes {
+    width: 100%;
+    background-color: var(--silver);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.publicacao-title-smaler {
+    margin-top: 5rem;
+    font-size: small;
+    text-align: center;
+}
+
+.publicacao-title-biger {
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    fill: solid var(--preto);
+}
+
+.publicacao-card {
+    width: 21rem;
+    height: 18rem;
+    align-items: center;
+    margin-left: 1rem;
+    display: grid;
+    background-color: var(--branco);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 2px 1px var(--preto);
+}
+
+.publicacao-titulo {
+    margin-top: .5rem;
+    margin-bottom: -2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.publicacao-titulo:hover,
+.publicacao-titulo:hover:focus {
+    color: var( --fonte-link);
+}
+
+.publicacao-texto {
+    position: relative;
+    font-size: 11px;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.publicacao-img {
+    position: absolute;
+    margin-left: 1rem;
+    display: grid;
+    width: 7rem;
+    border-radius: 3px;
+    margin-top: 3rem;
+    border: solid 3px var(--silver)
+}
+
+.titulo-mobile-publicacao {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .publicacao-card {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        display: grid;
+        background-color: var(--branco);
+        border-radius: 5px;
+        width: 95vw;
+        height: 16rem;
+        box-shadow: 2px 2px 2px 1px var(--preto);
+    }
+    .publicacao-titulo {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .publicacao-texto {
+        text-align: center;
+        font-size: large;
+    }
+    .publicacao-img {
+        width: 110px;
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+}
